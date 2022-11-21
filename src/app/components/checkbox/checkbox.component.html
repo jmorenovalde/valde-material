@@ -1,0 +1,9 @@
+<mat-checkbox
+  [checked]="value"
+  [color]="color"
+  [disabled]="disabled"
+  [indeterminate]="indeterminate"
+  [attr.data-testid]="dataTestId"
+  (change)="onChange($event)">
+  <span class="checkbox__label" [class.emphasis]="emphasis">{{ title }}</span>
+</mat-checkbox>
